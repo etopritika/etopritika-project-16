@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Ice-Cream</title>
+  </head>
+  <body>
+    <section class="about-section section">
+      <div class="container">
+        <h4 class="about__tittle">tradition and love</h4>
+        <h4 class="about__made-tittle">how it’s made?</h4>
+        <div class="about__wrapper">
+          <div class="about__img-thumb">
+            <img
+              class="about__mobile-img"
+              srcset="
+                images/cow/mob-about-280@1x.png 1x,
+                images/cow/mob-about-560@2x.png 2x
+              "
+              src="images/cow/cow/mob-about-280@1x.png"
+              alt="Cow on the grass"
+              width="280"
+            />
+            <img
+              class="about__tablet-img"
+              srcset="
+                images/cow/tab-about-330@1x.png 1x,
+                images/cow/tab-about-660@2x.png 2x
+              "
+              src="images/cow/cow/mob-about-280@1x.png"
+              alt="Cow on the grass"
+              width="330"
+            />
+            <img
+              class="about__desktop-img"
+              srcset="
+                images/cow/desk-about-490@1x.png 1x,
+                images/cow/desk-about-980@2x.png 2x
+              "
+              src="images/cow/cow/mob-about-280@1x.png"
+              alt="Cow on the grass"
+              width="490"
+            />
+          </div>
+          <div class="about__paragraphs">
+            <p class="first-paragraph">
+              Ice is a place where you will become not only a little happier,
+              but also healthier. Health is the main value for us, and we follow
+              it when creating our handmade desserts.
+            </p>
+            <p class="second-paragraph">
+              We use traditional recipes and 100% natural ingredients. Our
+              products are so natural that they can be given to children from
+              the age of three years. Sweets lovers can expect 55 types of ice
+              cream, 15 types of coffee and 23 milkshakes.
+            </p>
+            <p class="third-paragraph">
+              This is enough to choose ice cream and coffee for any mood!
+            </p>
+            <button type="button" class="read-more-btn">
+              Read more
+              <svg class="read-more-icon" width="12" height="12">
+                <use href="images/btn-arrow.svg#btn-arrow"></use>
+              </svg>
+            </button>
+            <div class="read-more-modal">
+              <button class="read-more__close-btn" type="button">
+                <svg class="read-more__close-icon" width="20" height="20">
+                  <use href="./images/read-more__close-icon.svg#read-more__close-icon"></use>
+                </svg>
+              </button>
+              <p class="read-more__tittle">How it’s made?</p>
+              <iframe
+                class="read-more__video"
+                width="220"
+                height="199"
+                src="https://www.youtube.com/embed/2P_avDlig-U"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p class="read-more__info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

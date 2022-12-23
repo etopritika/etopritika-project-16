@@ -1,0 +1,31 @@
+$main-font: "Montserrat", sans-serif;
+$second-font: "Seymour One", sans-serif;
+$main-bgcolor: #84a178;
+$second-bgcolor: #aec6a5;
+$third-bgcolor: #efd478;
+$fourth-bgcolor: #d6936d;
+$fifth-bgcolor: #f8d24e;
+$modal-bgcolor: #fcfcfc;
+$main-txcolor: #fcfcfc;
+$second-txcolor: #131313;
+$third-txcolor: #d6936d;
+$fourth-txcolor: #ababab;
+$fifth-txcolor: #7a7a7a;
+$sixth-txcolor: #ffffff;
+$seventh-txcolor: #000000;
+$eighth-txcolor: #f8d24e;
+$hover-focus-color: #0a8817;
+$disabled-color: #ababab;
+$tr-delay: 250ms;
+$tr-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+%section {
+  padding-top: 61px;
+  
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    
+  }
+}
+
+

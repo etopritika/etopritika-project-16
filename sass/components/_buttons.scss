@@ -1,0 +1,37 @@
+%read-more-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 35px 12px 34px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: calc(18px / 14px);
+    color: $seventh-txcolor;
+    background-color: $eighth-txcolor;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color $tr-delay $tr-timing-function,
+      color $tr-delay $tr-timing-function;
+    &:hover {
+      background-color: $hover-focus-color;
+    }
+    &:focus {
+      color: $main-txcolor;
+      background-color: $hover-focus-color;
+    }
+    &:focus .read-more-icon {
+      fill: $main-txcolor;
+    }
+    &:disabled {
+      background-color: $disabled-color;
+    }
+  }
+
+%read-more__close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
